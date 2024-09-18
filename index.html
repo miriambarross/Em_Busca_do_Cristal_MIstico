@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300;400;600&display=swap" rel="stylesheet">
+    <title>Em Busca do Cristal Místico</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="css/img/cristalmistico.jpg" alt="Cenário inicial">
+            <p>Você descobre um mapa antigo que leva ao Cristal Místico, uma joia de poder inimaginável. A jornada começa na floresta sombria. Para onde você vai primeiro?</p>
+            <button class="btn-proximo" data-proximo="1">Explorar o caminho da luz</button>
+            <button class="btn-proximo" data-proximo="2">Seguir pelo caminho sombrio</button>
+        </div>
+
+        <div class="passo" id="passo-1">
+            <p>Você escolhe o caminho da luz e encontra um ancião que oferece sabedoria. Ele diz que a próxima pista está nas montanhas geladas.</p>
+            <button class="btn-proximo" data-proximo="3">Seguir para as montanhas</button>
+            <button class="btn-proximo" data-proximo="4">Ignorar o conselho e continuar na floresta</button>
+        </div>
+
+        <div class="passo" id="passo-2">
+            <p>O caminho sombrio leva você a uma caverna misteriosa. Você sente uma presença estranha, mas pode ser uma pista.</p>
+            <button class="btn-proximo" data-proximo="5">Entrar na caverna</button>
+            <button class="btn-proximo" data-proximo="6">Voltar e tentar o caminho da luz</button>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <p>Nas montanhas geladas, você encontra uma inscrição antiga apontando para um templo escondido no deserto.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o deserto</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <p>Você continua na floresta e se perde. Infelizmente, a jornada termina aqui.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Dentro da caverna, você encontra uma pedra brilhante que parece ser parte do Cristal Místico.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o templo no deserto</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Você retorna ao caminho da luz e encontra o ancião novamente. Ele indica o caminho certo.</p>
+            <button class="btn-proximo" data-proximo="3">Seguir para as montanhas</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>No deserto, você finalmente encontra o templo e, dentro dele, o Cristal Místico.</p>
+            <img src="css/img/templo.jpg" alt="Você encontra o Cristal Místico">
+            <p>Sua jornada foi um sucesso! O Cristal Místico agora está em suas mãos.</p>
+        </div>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
